@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Miriam+Libre&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li, a, .contact-btn, h2, h3, p, .review-item {
+  font-family: 'Miriam Libre', sans-serif;
+}
+
+h2 {
+  color: maroon;
+  padding-left: 30px;
+  padding-top:20px;
+}
+
+p {
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+body {
+  background-color: FloralWhite;
+}
+
+.contact-btn {
+  color: Maroon;
+  padding: 10px 25px;
+  background-color: LightPink;
+  border-radius: 50px;
+  border-color: MistyRose;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.contact-btn:hover {
+  background-color: LightCoral;
+  color: White;
+}
+
+.navbar-brand {
+  color: Maroon !important;
+}
+
+.bg-light {
+  background-color: MistyRose !important;
+}
+
+.nav-link {
+  color: Maroon !important;
+}
+
+.nav-link:hover{
+  color: LightCoral !important;
+}
+
+.dropdown-item {
+  color: Maroon !important;
+}
+
+.dropdown-item:hover {
+  background-color: MistyRose !important;
+}
+
+.contact {
+  padding: 10px 25px;
+  background-color: LightPink;
+  border: Black;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.contact:hover {
+  background-color: LightCoral;
+  color: White;
+}
+
+.masonry-wrapper {
+  padding: 1.5em;
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.masonry {
+  columns: 1;
+  column-gap: 10px;
+}
+.masonry-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+
+.masonry-item, .masonry-content {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+  .masonry {
+    columns: 1;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {  .masonry {
+    columns: 2;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    columns: 3;
+  }
+}
+
+img {
+  width: 300px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.all-reviews {
+  padding-top: 30px;
+}
+
+.review-h2 {
+  padding-bottom: 20px;
+}
+
+.review-date {
+  font-size: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.review-item {
+  color: Maroon;
+  background-color: FloralWhite;
+  padding: 5px 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: MistyRose;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
