@@ -95,6 +95,10 @@ body {
   margin-bottom: 10px;
 }
 
+img {
+  width: 300px;
+}
+
 .masonry-item, .masonry-content {
   border-radius: 4px;
   overflow: hidden;
@@ -114,10 +118,6 @@ body {
   .masonry {
     columns: 3;
   }
-}
-
-img {
-  width: 300px;
 }
 
 h3 {
@@ -142,6 +142,15 @@ h3 {
   color: Maroon;
   background-color: FloralWhite;
   padding: 5px 40px;
+}
+
+.about-pic {
+  padding: 10px;
+  padding-left: 60px;
+}
+
+.about-info {
+  padding-bottom: 50px;
 }
 
 footer {
